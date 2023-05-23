@@ -13,8 +13,8 @@ import { DrawerContext } from 'common/contexts/DrawerContext';
 import { MENU_ITEMS } from 'common/data/SassMinimal';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
-import logoDark from 'common/assets/image/sassMinimal/logo.png';
-import logoWhite from 'common/assets/image/sassMinimal/logo-white.png';
+import logoDark from 'common/assets/image/sassMinimal/logo-agendable.png';
+import logoWhite from 'common/assets/image/sassMinimal/logo-agendable-192x192.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -52,7 +52,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             />
             <Link href="#">
               <a className="navbar_button">
-                <Button {...button} title="Have Project?" />
+                <Button {...button} title="Tenes un negocio?" />
               </a>
             </Link>
             <Drawer
@@ -97,7 +97,8 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['120px', '149px'],
+    // maxWidth: ['120px', '149px'],
+    height: '60px'
   },
   button: {
     type: 'button',

@@ -4,12 +4,8 @@ export const BannerWrapper = styled.section`
   position: relative;
   width: 100%;
   padding-top: 140px;
-  background-image: linear-gradient(
-    130.92deg,
-    #3a1c71 -14.59%,
-    #d76d77 38.47%,
-    #ffaf7b 98.62%
-  );
+  background: linear-gradient(to bottom right, #33E5B5, #282A45 80%);
+
   margin-bottom: 135px;
 
   @media (max-width: 767px) {

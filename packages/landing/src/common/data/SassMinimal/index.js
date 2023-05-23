@@ -1,55 +1,54 @@
 export const MENU_ITEMS = [
   {
-    label: 'Home',
-    path: '#banner_section',
-    offset: '70',
+    label: "Home",
+    path: "#banner_section",
+    offset: "70",
   },
   {
-    label: 'Feature',
-    path: '#feature_section',
-    offset: '70',
+    label: "Feature",
+    path: "#feature_section",
+    offset: "70",
   },
   {
-    label: 'Service',
-    path: '#service_section',
-    offset: '70',
+    label: "Service",
+    path: "#service_section",
+    offset: "70",
   },
   {
-    label: 'Pricing',
-    path: '#pricing_section',
-    offset: '70',
+    label: "Pricing",
+    path: "#pricing_section",
+    offset: "70",
   },
   {
-    label: 'FAQ',
-    path: '#faq_section',
-    offset: '70',
+    label: "FAQ",
+    path: "#faq_section",
+    offset: "70",
   },
   {
-    label: 'Contact',
-    path: '#contact_section',
-    offset: '70',
+    label: "Contact",
+    path: "#contact_section",
+    offset: "70",
   },
 ];
 
-import BannerImage from 'common/assets/image/sassMinimal/banner-image-1-1.png';
+import BannerImage from "common/assets/image/sassMinimal/banner-image-1-2.png";
 
 export const BANNER_DATA = [
   {
-    title: `Tool to analyse your \n website performance`,
-    text:
-      'Moment Pro is the best software platform to collect reviews and user-generated content for your business',
+    title: `Agenda Online \n para su potenciar tu negocio`,
+    text: "Agendable simplifica la gestión de reservas online. Administra tu agenda y permite a tus clientes reservar fácilmente en tu negocio.",
     image: BannerImage,
-    btnLabel: 'Start 14-days free trail',
-    btnLink: '#',
-    offerText: '*No Credit card required',
+    btnLabel: "Empezá tu prueba gratis!",
+    btnLink: "#",
+    offerText: "*No requiere tarjeta de credito",
   },
 ];
 
-import ClientImageOne from 'common/assets/image/sassMinimal/company-1-1.png';
-import ClientImageTwo from 'common/assets/image/sassMinimal/company-1-2.png';
-import ClientImageThree from 'common/assets/image/sassMinimal/company-1-3.png';
-import ClientImageFour from 'common/assets/image/sassMinimal/company-1-4.png';
-import ClientImageFive from 'common/assets/image/sassMinimal/company-1-5.png';
+import ClientImageOne from "common/assets/image/sassMinimal/company-1-1.png";
+import ClientImageTwo from "common/assets/image/sassMinimal/company-1-2.png";
+import ClientImageThree from "common/assets/image/sassMinimal/company-1-3.png";
+import ClientImageFour from "common/assets/image/sassMinimal/company-1-4.png";
+import ClientImageFive from "common/assets/image/sassMinimal/company-1-5.png";
 
 export const COMPANY_DATA = [
   {
@@ -71,225 +70,219 @@ export const COMPANY_DATA = [
 
 export const FEATURE_DATA = [
   {
-    title: 'Unlimited members',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+    title: "Seguimiento de reservas",
+    text: "Mantene a tus clientes informados y actualizados mediante recordatorios y confirmaciones automáticas por correo electrónico.",
   },
   {
-    title: 'Chat prompt supported',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+    title: "Personalizable",
+    text: "Ajusta y personaliza fácilmente tu calendario y las opciones de reserva para adaptarse a las necesidades únicas de tu negocio.",
   },
   {
-    title: 'Unlimited members',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+    title: "Multiples servicios",
+    text: "Ofrece una variedad de servicios con duración y costos configurables, gestionando las reservas de cada servicio de forma eficiente.",
   },
   {
-    title: 'Google analytics platform',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+    title: "Panel de administración intuitivo",
+    text: "Nuestro panel de administración simplificado y fácil de usar te permite gestionar tus reservas sin complicaciones, sin necesidad de conocimientos técnicos..",
   },
   {
-    title: 'Optimized hashtags enable',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+    title: "Página de inicio personalizable",
+    text: "Crea una presencia en línea única con una página de inicio personalizada que refleje la identidad y estilo de tu negocio.",
   },
   {
-    title: 'Google analytics platform',
-    text:
-      'We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business.',
+    title: "Recordatorios automáticos",
+    text: "Ayuda a tus clientes a no perderse ninguna cita con recordatorios automáticos enviados por correo electrónico o mensajes de texto.",
   },
 ];
 
-import CustomerTrackingImage from 'common/assets/image/sassMinimal/track-customer.png';
+import CustomerTrackingImage from "common/assets/image/sassMinimal/track-customer.png";
 
 export const CUSTOMER_TRACKING = [
   {
-    tagline: 'Audience source monitoring',
-    heading: 'Track your audience and bounce rate with unique customers',
+    tagline: "Audience source monitoring",
+    heading: "Track your audience and bounce rate with unique customers",
     content:
-      'Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. We’re driven beyond just finishing the projects. We want to find smart business solutions with ideas.',
-    btnLabel: 'Explore details',
-    btnLink: '#',
+      "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. We’re driven beyond just finishing the projects. We want to find smart business solutions with ideas.",
+    btnLabel: "Explore details",
+    btnLink: "#",
     image: CustomerTrackingImage,
   },
 ];
 
-import ServiceImageOne from 'common/assets/image/sassMinimal/service-1-1.png';
-import ServiceImageTwo from 'common/assets/image/sassMinimal/service-1-2.png';
-import ServiceImageThree from 'common/assets/image/sassMinimal/service-1-3.png';
-import ServiceImageFour from 'common/assets/image/sassMinimal/service-1-4.png';
-import ServiceImageFive from 'common/assets/image/sassMinimal/service-1-5.png';
-import ServiceImageSix from 'common/assets/image/sassMinimal/service-1-6.png';
+import ServiceImageOne from "common/assets/image/sassMinimal/service-1-1.png";
+import ServiceImageTwo from "common/assets/image/sassMinimal/service-1-2.png";
+import ServiceImageThree from "common/assets/image/sassMinimal/service-1-3.png";
+import ServiceImageFour from "common/assets/image/sassMinimal/service-1-4.png";
+import ServiceImageFive from "common/assets/image/sassMinimal/service-1-5.png";
+import ServiceImageSix from "common/assets/image/sassMinimal/service-1-6.png";
 
 export const SERVICE_DATA = [
   {
     image: ServiceImageOne,
-    title: '3D modeling & art',
+    title: "3D modeling & art",
     content:
-      'Get your info tests delivered at home collect a sample from the your pogress tests.',
+      "Get your info tests delivered at home collect a sample from the your pogress tests.",
   },
   {
     image: ServiceImageTwo,
-    title: 'Digital promotion',
+    title: "Digital promotion",
     content:
-      'Get your info tests delivered at home collect a sample from the your pogress tests.',
+      "Get your info tests delivered at home collect a sample from the your pogress tests.",
   },
   {
     image: ServiceImageThree,
-    title: 'Business Enterprise',
+    title: "Business Enterprise",
     content:
-      'Get your info tests delivered at home collect a sample from the your pogress tests.',
+      "Get your info tests delivered at home collect a sample from the your pogress tests.",
   },
   {
     image: ServiceImageFour,
-    title: 'Marketing & advertising',
+    title: "Marketing & advertising",
     content:
-      'Get your info tests delivered at home collect a sample from the your pogress tests.',
+      "Get your info tests delivered at home collect a sample from the your pogress tests.",
   },
   {
     image: ServiceImageFive,
-    title: 'Ultimate development',
+    title: "Ultimate development",
     content:
-      'Get your info tests delivered at home collect a sample from the your pogress tests.',
+      "Get your info tests delivered at home collect a sample from the your pogress tests.",
   },
   {
     image: ServiceImageSix,
-    title: 'Online support',
+    title: "Online support",
     content:
-      'Get your info tests delivered at home collect a sample from the your pogress tests.',
+      "Get your info tests delivered at home collect a sample from the your pogress tests.",
   },
 ];
 
-import FeatureTwoImageOne from 'common/assets/image/sassMinimal/feature-2-1.png';
-import FeatureTwoImageTwo from 'common/assets/image/sassMinimal/feature-2-2.png';
+import FeatureTwoImageOne from "common/assets/image/sassMinimal/feature-2-1.png";
+import FeatureTwoImageTwo from "common/assets/image/sassMinimal/feature-2-2.png";
 
 export const FEATURE_TWO_DATA = [
   {
     image: FeatureTwoImageOne,
-    title: 'Smart Features',
+    title: "Smart Features",
     content:
-      'We’re driven beyond just finishing the projects. We want to find smart solutions.',
+      "We’re driven beyond just finishing the projects. We want to find smart solutions.",
   },
   {
     image: FeatureTwoImageTwo,
-    title: 'Secure Contents',
+    title: "Secure Contents",
     content:
-      'We’re driven beyond just finishing the projects. We want to find smart solutions.',
+      "We’re driven beyond just finishing the projects. We want to find smart solutions.",
   },
 ];
 
-import TwitterImageOne from 'common/assets/image/sassMinimal/twitter-1-1.png';
-import TwitterImageTwo from 'common/assets/image/sassMinimal/twitter-1-2.png';
-import TwitterImageThree from 'common/assets/image/sassMinimal/twitter-1-3.png';
+import TwitterImageOne from "common/assets/image/sassMinimal/twitter-1-1.png";
+import TwitterImageTwo from "common/assets/image/sassMinimal/twitter-1-2.png";
+import TwitterImageThree from "common/assets/image/sassMinimal/twitter-1-3.png";
 
 export const TWITTER_DATA = [
   {
     image: TwitterImageOne,
-    name: 'Jonathan Taylor',
-    designation: 'CEO at Creativex',
+    name: "Jonathan Taylor",
+    designation: "CEO at Creativex",
     content:
-      'Whenever I need to create a new cool ecommerce site for clients, @redqteam is my solution is the best agency. We are super excited about it.',
+      "Whenever I need to create a new cool ecommerce site for clients, @redqteam is my solution is the best agency. We are super excited about it.",
   },
   {
     image: TwitterImageTwo,
-    name: 'Gavin Park',
-    designation: 'CEO at Orbital',
+    name: "Gavin Park",
+    designation: "CEO at Orbital",
     content:
-      '@redqteam is great for creating with landing pages within minutes! It then actually takes less time…',
+      "@redqteam is great for creating with landing pages within minutes! It then actually takes less time…",
   },
   {
     image: TwitterImageThree,
-    name: 'Betty Norton',
-    designation: 'Freelance Designer',
+    name: "Betty Norton",
+    designation: "Freelance Designer",
     content:
-      'Whenever I need to create a new cool ecommerce site for clients, @redqteam is my solution is the best agency. We are super excited about it.',
+      "Whenever I need to create a new cool ecommerce site for clients, @redqteam is my solution is the best agency. We are super excited about it.",
   },
 ];
 
 export const FOOTER_WIDGET = [
   {
-    title: 'About Us',
+    title: "About Us",
     menuItems: [
       {
-        url: '#',
-        text: 'Support Center',
+        url: "#",
+        text: "Support Center",
       },
       {
-        url: '#',
-        text: 'Customer Support',
+        url: "#",
+        text: "Customer Support",
       },
       {
-        url: '#',
-        text: 'About Us',
+        url: "#",
+        text: "About Us",
       },
       {
-        url: '#',
-        text: 'Copyright',
+        url: "#",
+        text: "Copyright",
       },
     ],
   },
   {
-    title: 'Our Information',
+    title: "Our Information",
     menuItems: [
       {
-        url: '#',
-        text: 'Return Policy',
+        url: "#",
+        text: "Return Policy",
       },
       {
-        url: '#',
-        text: 'Privacy Policy',
+        url: "#",
+        text: "Privacy Policy",
       },
       {
-        url: '#',
-        text: 'Terms & Conditions',
+        url: "#",
+        text: "Terms & Conditions",
       },
       {
-        url: '#',
-        text: 'Site Map',
+        url: "#",
+        text: "Site Map",
       },
     ],
   },
   {
-    title: 'My Account',
+    title: "My Account",
     menuItems: [
       {
-        url: '#',
-        text: 'Press inquiries',
+        url: "#",
+        text: "Press inquiries",
       },
       {
-        url: '#',
-        text: 'Social media',
+        url: "#",
+        text: "Social media",
       },
       {
-        url: '#',
-        text: 'directories',
+        url: "#",
+        text: "directories",
       },
       {
-        url: '#',
-        text: 'Images & B-roll',
+        url: "#",
+        text: "Images & B-roll",
       },
     ],
   },
   {
-    title: 'Policy',
+    title: "Policy",
     menuItems: [
       {
-        url: '#',
-        text: 'Application security',
+        url: "#",
+        text: "Application security",
       },
       {
-        url: '#',
-        text: 'Software principles',
+        url: "#",
+        text: "Software principles",
       },
       {
-        url: '#',
-        text: 'Unwanted software policy',
+        url: "#",
+        text: "Unwanted software policy",
       },
       {
-        url: '#',
-        text: 'Responsible supply chain',
+        url: "#",
+        text: "Responsible supply chain",
       },
     ],
   },
@@ -298,122 +291,122 @@ export const FOOTER_WIDGET = [
 // FAQ Section Content
 export const FAQ_DATA = [
   {
-    title: 'What is the process of project final delivery system?',
+    title: "What is the process of project final delivery system?",
     description:
-      'Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.',
+      "Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.",
   },
   {
-    title: 'What is payment process, believe in upfront?',
+    title: "What is payment process, believe in upfront?",
     description:
-      'Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.',
+      "Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.",
   },
   {
     expend: true,
-    title: 'Any refund policy available if client don’t agree?',
+    title: "Any refund policy available if client don’t agree?",
     description:
-      'Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.',
+      "Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.",
   },
   {
-    title: 'Estimate project budget for categories?',
+    title: "Estimate project budget for categories?",
     description:
-      'Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.',
+      "Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.",
   },
   {
-    title: 'What is the process of project final delivery system?',
+    title: "What is the process of project final delivery system?",
     description:
-      'Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.',
+      "Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.",
   },
   {
-    title: 'All about project customization & monitaization',
+    title: "All about project customization & monitaization",
     description:
-      'Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.',
+      "Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, Startupers, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.",
   },
 ];
 
 export const MONTHLY_PRICING_TABLE = [
   {
     isRecomended: false,
-    name: 'Starter Pack',
-    price: '$8.93',
-    priceLabel: '/mo',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: "Starter Pack",
+    price: "$8.93",
+    priceLabel: "/mo",
+    buttonLabel: "Create Account",
+    url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: '500 users',
+        content: "500 users",
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: "Own analytics platform",
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: "Unlimited links",
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: "Chat promt supported",
       },
       {
         isDisabled: true,
-        content: 'Optimzed hashtags',
+        content: "Optimzed hashtags",
       },
     ],
   },
   {
     isRecomended: true,
-    name: 'Standard Pack',
-    price: '$15.93',
-    priceLabel: '/mo',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: "Standard Pack",
+    price: "$15.93",
+    priceLabel: "/mo",
+    buttonLabel: "Create Account",
+    url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: "Own analytics platform",
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: "Unlimited links",
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: "Chat promt supported",
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: "Optimzed hashtags",
       },
     ],
   },
   {
     isRecomended: false,
-    name: 'For business enterprise',
-    price: 'Let’s Talk',
-    priceLabel: '',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: "For business enterprise",
+    price: "Let’s Talk",
+    priceLabel: "",
+    buttonLabel: "Create Account",
+    url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: '10,000 users',
+        content: "10,000 users",
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: "Own analytics platform",
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: "Unlimited links",
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: "Chat promt supported",
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: "Optimzed hashtags",
       },
     ],
   },
@@ -422,87 +415,87 @@ export const MONTHLY_PRICING_TABLE = [
 export const YEARLY_PRICING_TABLE = [
   {
     isRecomended: false,
-    name: 'Starter Pack',
-    price: '$40.43',
-    priceLabel: '/yr',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: "Starter Pack",
+    price: "$40.43",
+    priceLabel: "/yr",
+    buttonLabel: "Create Account",
+    url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: '500 users',
+        content: "500 users",
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: "Own analytics platform",
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: "Unlimited links",
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: "Chat promt supported",
       },
       {
         isDisabled: true,
-        content: 'Optimzed hashtags',
+        content: "Optimzed hashtags",
       },
     ],
   },
   {
     isRecomended: true,
-    name: 'Standard Pack',
-    price: '$75.79',
-    priceLabel: '/yr',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: "Standard Pack",
+    price: "$75.79",
+    priceLabel: "/yr",
+    buttonLabel: "Create Account",
+    url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: "Own analytics platform",
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: "Unlimited links",
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: "Chat promt supported",
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: "Optimzed hashtags",
       },
     ],
   },
   {
     isRecomended: false,
-    name: 'For business enterprise',
-    price: 'Let’s Talk',
-    priceLabel: '',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: "For business enterprise",
+    price: "Let’s Talk",
+    priceLabel: "",
+    buttonLabel: "Create Account",
+    url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: '10,000 users',
+        content: "10,000 users",
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: "Own analytics platform",
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: "Unlimited links",
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: "Chat promt supported",
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: "Optimzed hashtags",
       },
     ],
   },
