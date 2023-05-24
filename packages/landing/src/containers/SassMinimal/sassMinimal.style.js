@@ -61,13 +61,13 @@ export const GlobalStyle = createGlobalStyle`
               font-size: 18px;
             }
             &:hover {
-              color: #eb4d4b;
+              color: ##33E5B5;
             }
             &:before{
               content: '';
               width: 7px;
               height: 7px;
-              background: #eb4d4b;
+              background: #33E5B5;
               border-radius: 50%;
               position: absolute;
               top: 50%;
@@ -78,7 +78,7 @@ export const GlobalStyle = createGlobalStyle`
           }
           &.is-current {
             a {
-              color: #eb4d4b;
+              color: #33E5B5;
               &:before{
                 opacity: 1;
               }
@@ -109,7 +109,7 @@ export const GlobalStyle = createGlobalStyle`
         content: '\f10b';
         font-family: Flaticon;
         font-size: 26px;
-        color: #eb4d4b;
+        color: #33E5B5;
         transform: rotate(45deg);
         display: block;
       }
@@ -140,10 +140,10 @@ export const ContentWrapper = styled.div`
       }
       .main_menu li:hover a,
       .main_menu li.is-current a {
-        color: #c36276;
+        color: #33E5B5;
       }
       .navbar_button .reusecore__button:hover {
-        background-color: #c36276;
+        background-color: #33E5B5;
         color: #fff;
       }
       .reusecore-drawer__handler {
