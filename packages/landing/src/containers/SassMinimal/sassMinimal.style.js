@@ -224,7 +224,7 @@ export const ContentWrapper = styled.div`
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: #00005c;
+        background-color: #001628;
         border-radius: 5px;
         color: #ffffff;
         padding: 0px 12px;
@@ -233,7 +233,7 @@ export const ContentWrapper = styled.div`
 
         &:hover {
           background-color: #fff;
-          color: #00005c;
+          color: #001628;
         }
       }
 

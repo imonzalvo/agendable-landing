@@ -48,13 +48,13 @@ const Pricing = () => {
     <PricingWrapper id="pricing_section">
       <Container>
         <Box className="blockTitle">
-          <Heading as="h2" content="What deal suit you perfect" />
+          <Heading as="h2" content="Tenemos un plan para tu negocio" />
           <Text
             as="p"
-            content="We are designed with most exciting pricing plan"
+            content="Hemos diseñado un plan de precios emocionante y atractivo"
           />
         </Box>
-        <Box className="pricingFilter">
+        {/* <Box className="pricingFilter">
           <span>Monthly</span>
           <Switch
             switchColor="#fff"
@@ -64,7 +64,7 @@ const Pricing = () => {
           />
           <span>Yearly</span>
           <span className="pricingOffer">Save 25%</span>
-        </Box>
+        </Box> */}
         {state.toggle === true ? (
           <Box className="row">
             {MONTHLY_PRICING_TABLE.map((pricingTable, index) => (
@@ -80,7 +80,7 @@ const Pricing = () => {
                     <Text as="span" content={pricingTable.priceLabel} />
                   </Box>
                   <Text as="p" content={pricingTable.name} />
-                  {pricingTable.isRecomended === true ? (
+                  {pricingTable.isRecomended === true  && false? (
                     <Select
                       options={options}
                       defaultValue={options[0]}

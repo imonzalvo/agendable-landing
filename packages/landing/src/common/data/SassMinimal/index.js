@@ -10,18 +10,8 @@ export const MENU_ITEMS = [
     offset: "70",
   },
   {
-    label: "Service",
-    path: "#service_section",
-    offset: "70",
-  },
-  {
     label: "Pricing",
     path: "#pricing_section",
-    offset: "70",
-  },
-  {
-    label: "FAQ",
-    path: "#faq_section",
     offset: "70",
   },
   {
@@ -95,14 +85,14 @@ export const FEATURE_DATA = [
   },
 ];
 
-import CustomerTrackingImage from "common/assets/image/sassMinimal/track-customer.png";
+import CustomerTrackingImage from "common/assets/image/sassMinimal/user-book.png";
 
 export const CUSTOMER_TRACKING = [
   {
-    tagline: "Audience source monitoring",
-    heading: "Track your audience and bounce rate with unique customers",
+    tagline: "Optimiza la gestión de tu negocio",
+    heading: "Empodera a tus clientes",
     content:
-      "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. We’re driven beyond just finishing the projects. We want to find smart business solutions with ideas.",
+      "Permite a tus clientes reservar horarios fácilmente en un minuto. Eligen un servicio y buscan horarios disponibles. Recibirás notificaciones para un seguimiento efectivo.",
     btnLabel: "Explore details",
     btnLink: "#",
     image: CustomerTrackingImage,
@@ -155,21 +145,21 @@ export const SERVICE_DATA = [
   },
 ];
 
-import FeatureTwoImageOne from "common/assets/image/sassMinimal/feature-2-1.png";
-import FeatureTwoImageTwo from "common/assets/image/sassMinimal/feature-2-2.png";
+import FeatureTwoImageOne from "common/assets/image/sassMinimal/project.png";
+import FeatureTwoImageTwo from "common/assets/image/sassMinimal/meeting.png";
 
 export const FEATURE_TWO_DATA = [
   {
     image: FeatureTwoImageOne,
-    title: "Smart Features",
+    title: "Vision global de sus horarios",
     content:
-      "We’re driven beyond just finishing the projects. We want to find smart solutions.",
+      "Gestione, modifique y mantenga un seguimiento completo de todas las reservas de la semana.",
   },
   {
     image: FeatureTwoImageTwo,
-    title: "Secure Contents",
+    title: "Control de recursos del negocio",
     content:
-      "We’re driven beyond just finishing the projects. We want to find smart solutions.",
+      "Organiza y asigna horarios y capacidades a cada empleado, asegurando una gestión eficiente y optimizada de tus recursos.",
   },
 ];
 
@@ -203,7 +193,7 @@ export const TWITTER_DATA = [
 
 export const FOOTER_WIDGET = [
   {
-    title: "About Us",
+    title: "Sobre nosotros",
     menuItems: [
       {
         url: "#",
@@ -224,7 +214,7 @@ export const FOOTER_WIDGET = [
     ],
   },
   {
-    title: "Our Information",
+    title: "Nuestra informacion",
     menuItems: [
       {
         url: "#",
@@ -244,48 +234,48 @@ export const FOOTER_WIDGET = [
       },
     ],
   },
-  {
-    title: "My Account",
-    menuItems: [
-      {
-        url: "#",
-        text: "Press inquiries",
-      },
-      {
-        url: "#",
-        text: "Social media",
-      },
-      {
-        url: "#",
-        text: "directories",
-      },
-      {
-        url: "#",
-        text: "Images & B-roll",
-      },
-    ],
-  },
-  {
-    title: "Policy",
-    menuItems: [
-      {
-        url: "#",
-        text: "Application security",
-      },
-      {
-        url: "#",
-        text: "Software principles",
-      },
-      {
-        url: "#",
-        text: "Unwanted software policy",
-      },
-      {
-        url: "#",
-        text: "Responsible supply chain",
-      },
-    ],
-  },
+  // {
+  //   title: "My Account",
+  //   menuItems: [
+  //     {
+  //       url: "#",
+  //       text: "Press inquiries",
+  //     },
+  //     {
+  //       url: "#",
+  //       text: "Social media",
+  //     },
+  //     {
+  //       url: "#",
+  //       text: "directories",
+  //     },
+  //     {
+  //       url: "#",
+  //       text: "Images & B-roll",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Policy",
+  //   menuItems: [
+  //     {
+  //       url: "#",
+  //       text: "Application security",
+  //     },
+  //     {
+  //       url: "#",
+  //       text: "Software principles",
+  //     },
+  //     {
+  //       url: "#",
+  //       text: "Unwanted software policy",
+  //     },
+  //     {
+  //       url: "#",
+  //       text: "Responsible supply chain",
+  //     },
+  //   ],
+  // },
 ];
 
 // FAQ Section Content
@@ -326,87 +316,115 @@ export const FAQ_DATA = [
 export const MONTHLY_PRICING_TABLE = [
   {
     isRecomended: false,
-    name: "Starter Pack",
-    price: "$8.93",
-    priceLabel: "/mo",
-    buttonLabel: "Create Account",
+    name: "Plan gratuito",
+    price: "$0.00",
+    priceLabel: "/mes",
+    buttonLabel: "Registrarse",
     url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: "500 users",
+        content: "Pagina de inicio configurable",
       },
       {
         isDisabled: false,
-        content: "Own analytics platform",
+        content: "1 empleado",
       },
       {
         isDisabled: false,
-        content: "Unlimited links",
+        content: "1 servicio",
       },
       {
         isDisabled: false,
-        content: "Chat promt supported",
+        content: "20 reservas mensuales",
       },
       {
         isDisabled: true,
-        content: "Optimzed hashtags",
+        content: "Integracion con plataformas de pago",
+      },
+      {
+        isDisabled: true,
+        content: "Notificaciones via email",
+      },
+      {
+        isDisabled: true,
+        content: "Soporte 24/7",
       },
     ],
   },
   {
     isRecomended: true,
     name: "Standard Pack",
-    price: "$15.93",
-    priceLabel: "/mo",
-    buttonLabel: "Create Account",
+    price: "$20.00",
+    priceLabel: "/mes",
+    buttonLabel: "Registrarse",
     url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: "Own analytics platform",
+        content: "Pagina de inicio configurable",
       },
       {
         isDisabled: false,
-        content: "Unlimited links",
+        content: "5 empleados",
       },
       {
         isDisabled: false,
-        content: "Chat promt supported",
+        content: "10 servicios",
       },
       {
         isDisabled: false,
-        content: "Optimzed hashtags",
+        content: "5000 reservas mensuales",
+      },
+      {
+        isDisabled: false,
+        content: "Notificaciones via email",
+      },
+      {
+        isDisabled: true,
+        content: "Integracion con plataformas de pago",
+      },
+      {
+        isDisabled: false,
+        content: "Soporte 24/7",
       },
     ],
   },
   {
     isRecomended: false,
-    name: "For business enterprise",
-    price: "Let’s Talk",
+    name: "Negocio empresarial",
+    price: "Hablemos",
     priceLabel: "",
-    buttonLabel: "Create Account",
+    buttonLabel: "Registrarse",
     url: "#",
     listItems: [
       {
         isDisabled: false,
-        content: "10,000 users",
+        content: "Pagina de inicio configurable",
       },
       {
         isDisabled: false,
-        content: "Own analytics platform",
+        content: "Empleados ilimitados",
       },
       {
         isDisabled: false,
-        content: "Unlimited links",
+        content: "Servicios ilimitados",
       },
       {
         isDisabled: false,
-        content: "Chat promt supported",
+        content: "Reservas ilimitadas",
       },
       {
         isDisabled: false,
-        content: "Optimzed hashtags",
+        content: "Notificaciones via email",
+      },
+      {
+        isDisabled: false,
+        content: "Integracion con plataformas de pago",
+      },
+      {
+        isDisabled: false,
+        content: "Soporte 24/7",
       },
     ],
   },

@@ -12,16 +12,16 @@ const ContactUs = () => {
       <Container>
         <Box className="contactInner">
           <Box className="leftContent">
-            <Heading as="h3" content="For project inquiry" />
+            <Heading as="h3" content="Queres saber mas sobre nosotros?" />
             <Heading
               as="h3"
               className="color2"
-              content="Contact us our supporter team"
+              content="Contacta a nuestro equipo de soporte"
             />
           </Box>
           <Box className="buttonBox">
             <Link href="#">
-              <a className="contactBtn">Contact Us</a>
+              <a className="contactBtn">Contactanos</a>
             </Link>
           </Box>
         </Box>

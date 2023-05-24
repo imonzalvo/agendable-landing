@@ -10,7 +10,7 @@ import { FeatureTwoWrapper } from './featureTwo.style';
 
 import { FEATURE_TWO_DATA } from 'common/data/SassMinimal';
 
-import FeatureTwoMoc from 'common/assets/image/sassMinimal/feature-2-moc.png';
+import FeatureTwoMoc from 'common/assets/image/sassMinimal/feature-22.png';
 
 const FeatureTwoSection = () => {
   return (
@@ -19,16 +19,16 @@ const FeatureTwoSection = () => {
         <Box className="row">
           <Box className="column">
             <Box className="blockTitle">
-              <Text as="p" content="Analytics features" />
+              <Text as="p" content="Gestione todos sus recursos" />
               <Heading
                 as="h2"
-                content="Advanced analytics tools to keep you in control"
+                content="Mantenga el control de su negocio"
               />
             </Box>
             <Box className="featureTwoContent">
               {FEATURE_TWO_DATA.map((feature, index) => (
                 <Box className="featureTwoBox" key={`feature-two-${index}`}>
-                  <NextImage src={feature.image} alt="feature box image" />
+                  <NextImage height={80} width={80} src={feature.image} alt="feature box image" />
                   <Heading as="h3" content={feature.title} />
                   <Text as="p" content={feature.content} />
                 </Box>

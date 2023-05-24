@@ -1,17 +1,17 @@
-import React from 'react';
-import Link from 'next/link';
-import Container from 'common/components/UI/Container';
-import NextImage from 'common/components/NextImage';
-import Box from 'common/components/Box';
-import Heading from 'common/components/Heading';
-import Text from 'common/components/Text';
-import Fade from 'react-reveal/Fade';
-import { Icon } from 'react-icons-kit';
+import React from "react";
+import Link from "next/link";
+import Container from "common/components/UI/Container";
+import NextImage from "common/components/NextImage";
+import Box from "common/components/Box";
+import Heading from "common/components/Heading";
+import Text from "common/components/Text";
+import Fade from "react-reveal/Fade";
+import { Icon } from "react-icons-kit";
 
-import { CustomerTrackingWrapper } from './customerTracking.style';
-import { angleRight } from 'react-icons-kit/fa/angleRight';
+import { CustomerTrackingWrapper } from "./customerTracking.style";
+import { angleRight } from "react-icons-kit/fa/angleRight";
 
-import { CUSTOMER_TRACKING } from 'common/data/SassMinimal';
+import { CUSTOMER_TRACKING } from "common/data/SassMinimal";
 
 const CustomerTracking = () => {
   return (

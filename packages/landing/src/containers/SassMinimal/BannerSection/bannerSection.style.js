@@ -121,7 +121,7 @@ export const BannerWrapper = styled.section`
     }
   }
   .reusecore__button {
-    background-color: #00005c;
+    background-color: #001628;
     padding: 17.5px 20px;
     border-radius: 5px;
     transition: 500ms;
@@ -129,7 +129,7 @@ export const BannerWrapper = styled.section`
     z-index: 10;
 
     &:hover {
-      color: #00005c;
+      color: #001628;
       background-color: #fff;
     }
     span {

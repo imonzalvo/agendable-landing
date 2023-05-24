@@ -30,20 +30,20 @@ const Footer = ({
       <Container className="footer_container">
         <Box className="row" {...row}>
           <Box {...colOne}>
-            <Logo
+            {/* <Logo
               href="#"
               logoSrc={logo}
               title="SassMinimal"
               logoStyle={logoStyle}
-            />
+            /> */}
             <Box className="footerText">
-              <Text as="span" content="© 2020 Team" />{' '}
+              <Text as="span" content="© 2023 Team" />{' '}
               <Link href="#">
-                <a>Moment.pro</a>
+                <a>Agendable</a>
               </Link>
               <Text as="p" content="All rights reserved." />
             </Box>
-            <Box className="footerSocial">
+            {/* <Box className="footerSocial">
               <Link href="#">
                 <a>
                   <Image src={FBImage?.src} alt="" />
@@ -59,7 +59,7 @@ const Footer = ({
                   <Image src={DBImage?.src} alt="" />
                 </a>
               </Link>
-            </Box>
+            </Box> */}
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>

@@ -43,11 +43,11 @@ const SaasMinimal = () => {
           {/* <Company /> */}
           <FeatureSection />
           <CustomerTracking />
-          <ServiceSection />
+          {/* <ServiceSection /> */}
           <FeatureTwoSection />
-          <TwitterSection />
+          {/* <TwitterSection /> */}
           <Pricing />
-          <FaqSection />
+          {/* <FaqSection /> */}
           <ContactUs />
           <Footer />
         </ContentWrapper>
