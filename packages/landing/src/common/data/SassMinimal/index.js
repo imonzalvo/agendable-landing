@@ -354,7 +354,7 @@ export const MONTHLY_PRICING_TABLE = [
   },
   {
     isRecomended: true,
-    name: "Standard Pack",
+    name: "Plan Standard",
     price: "$20.00",
     priceLabel: "/mes",
     buttonLabel: "Registrarse",
@@ -463,7 +463,7 @@ export const YEARLY_PRICING_TABLE = [
   },
   {
     isRecomended: true,
-    name: "Standard Pack",
+    name: "Plan Standard",
     price: "$75.79",
     priceLabel: "/yr",
     buttonLabel: "Create Account",

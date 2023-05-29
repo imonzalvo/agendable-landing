@@ -304,7 +304,7 @@
     },
     {
       "isRecomended": true,
-      "name": "Standard Pack",
+      "name": "Plan Standard",
       "price": "$15.93",
       "priceLabel": "/mo",
       "buttonLabel": "Create Account",
@@ -392,7 +392,7 @@
     },
     {
       "isRecomended": true,
-      "name": "Standard Pack",
+      "name": "Plan Standard",
       "price": "$75.79",
       "priceLabel": "/yr",
       "buttonLabel": "Create Account",
