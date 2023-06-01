@@ -29,7 +29,7 @@ export const BANNER_DATA = [
     text: "Agendable simplifica la gestión de reservas online. Administra tu agenda y permite a tus clientes reservar fácilmente en tu negocio.",
     image: BannerImage,
     btnLabel: "Empezá tu prueba gratis!",
-    btnLink: "#",
+    btnLink: "https://agendable.io/signup",
     offerText: "*No requiere tarjeta de credito",
   },
 ];

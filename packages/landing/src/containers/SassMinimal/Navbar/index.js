@@ -50,7 +50,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="#">
+            <Link href="https://agendable.io/signup">
               <a className="navbar_button">
                 <Button {...button} title="Tenes un negocio?" />
               </a>
